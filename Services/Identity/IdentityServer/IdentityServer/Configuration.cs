@@ -10,17 +10,20 @@ namespace IdentityServer
     public static class Configuration
     {
         public static IEnumerable<ApiResource> GetApis() =>
-            new List<ApiResource> { new ApiResource("ResourceServer"),
+            new List<ApiResource> { new ApiResource("SampleService"),
 
             };
 
         public static IEnumerable<Client> GetClients() =>
             new List<Client> {  new Client { 
-                    ClientId ="client_id",
-                    ClientSecrets = { new Secret("client_secret".ToSha256())},
+                    ClientId = "ClientId",
                     AllowedGrantTypes = GrantTypes.ClientCredentials,
-
-                    AllowedScopes = {"ResourceServer"}
+                    ClientSecrets =
+                    {
+                        new Secret("ClientSecret".Sha256())
+                    },
+                    AllowedScopes = { "SampleService" },
+                    AccessTokenLifetime =3600
                 }
             };
 
