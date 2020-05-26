@@ -7,12 +7,17 @@ namespace Dashboard_backend.Models
 {
     public class Shift
     {
-        public int Id   // property
-        { get; set; }
+        public int id { get; set; }
+        public int employeeSlots { get; set; }
+        public DateTime shiftDate { get; set; }
+        public List<User> workingEmployees { get; set; }
 
-        public Shift(int id)
+        public Shift(int id, int employeeSlots, DateTime shiftDate, List<User> workingEmployees)
         {
-            Id = id;
+            this.id = id;
+            this.employeeSlots = employeeSlots;
+            this.shiftDate = shiftDate;
+            this.workingEmployees = workingEmployees;
         }
 
         public Shift()
@@ -21,7 +26,7 @@ namespace Dashboard_backend.Models
 
         public override string ToString()
         {
-            return base.ToString() + ": " + Id.ToString();
+            return base.ToString() + ": " + id.ToString();
         }
 
     }

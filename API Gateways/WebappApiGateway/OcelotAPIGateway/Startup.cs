@@ -30,7 +30,7 @@ namespace OcelotAPIGateway
         {
             services.AddControllers();
 
-            var authenticationProviderKey = "TestKey";
+            var authenticationProviderKey = "testKey";
             Action<IdentityServerAuthenticationOptions> opt = o =>
             {
                 o.Authority = "https://localhost:5020";

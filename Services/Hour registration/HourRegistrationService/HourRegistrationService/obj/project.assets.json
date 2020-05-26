@@ -6073,11 +6073,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp\\Services\\Hour registration\\HourRegistrationService\\HourRegistrationService\\HourRegistrationService.csproj",
+      "projectUniqueName": "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp-Backend\\Services\\Hour registration\\HourRegistrationService\\HourRegistrationService\\HourRegistrationService.csproj",
       "projectName": "HourRegistrationService",
-      "projectPath": "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp\\Services\\Hour registration\\HourRegistrationService\\HourRegistrationService\\HourRegistrationService.csproj",
+      "projectPath": "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp-Backend\\Services\\Hour registration\\HourRegistrationService\\HourRegistrationService\\HourRegistrationService.csproj",
       "packagesPath": "C:\\Users\\Tom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp\\Services\\Hour registration\\HourRegistrationService\\HourRegistrationService\\obj\\",
+      "outputPath": "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp-Backend\\Services\\Hour registration\\HourRegistrationService\\HourRegistrationService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

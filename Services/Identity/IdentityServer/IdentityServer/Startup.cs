@@ -25,7 +25,7 @@ namespace IdentityServer
 
             services.AddControllersWithViews();
 
-            services.AddMvc().AddNewtonsoftJson();        
+            services.AddMvc().AddNewtonsoftJson();
         
         }
 

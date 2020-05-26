@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp\\Dashboard-backend\\Dashboard-backend\\Dashboard-backend.csproj": {}
+    "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp-Backend\\Dashboard-backend\\Dashboard-backend\\Dashboard-backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp\\Dashboard-backend\\Dashboard-backend\\Dashboard-backend.csproj": {
+    "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp-Backend\\Dashboard-backend\\Dashboard-backend\\Dashboard-backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp\\Dashboard-backend\\Dashboard-backend\\Dashboard-backend.csproj",
+        "projectUniqueName": "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp-Backend\\Dashboard-backend\\Dashboard-backend\\Dashboard-backend.csproj",
         "projectName": "Dashboard-backend",
-        "projectPath": "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp\\Dashboard-backend\\Dashboard-backend\\Dashboard-backend.csproj",
+        "projectPath": "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp-Backend\\Dashboard-backend\\Dashboard-backend\\Dashboard-backend.csproj",
         "packagesPath": "C:\\Users\\Tom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp\\Dashboard-backend\\Dashboard-backend\\obj\\",
+        "outputPath": "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp-Backend\\Dashboard-backend\\Dashboard-backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,7 +43,7 @@
           "dependencies": {
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[3.1.1, )"
+              "version": "[3.1.2, )"
             }
           },
           "imports": [

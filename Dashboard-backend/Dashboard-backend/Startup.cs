@@ -2,6 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Dashboard_backend.Managers;
+using Dashboard_backend.Managers.Context;
+using Dashboard_backend.Managers.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -26,15 +29,20 @@ namespace Dashboard_backend
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-                       
+
             services.AddCors(options =>
             {
-                options.AddPolicy(name: MyAllowSpecificOrigins,
-                                  builder =>
-                                  {
-                                      builder.WithOrigins("http://localhost:4200");
-                                  });
+                options.AddPolicy(MyAllowSpecificOrigins,
+                    builder => builder
+                        .AllowAnyOrigin()
+                        .AllowAnyHeader()
+                        .AllowAnyMethod());
             });
+
+            services.AddTransient<IShiftRepository, ShiftRepository>();
+            services.AddTransient<IShiftContext, ShiftContext>();
+            services.AddTransient<IUserRepository, UserRepository>();
+            services.AddTransient<IUserContext, UserContext>();
 
         }
 

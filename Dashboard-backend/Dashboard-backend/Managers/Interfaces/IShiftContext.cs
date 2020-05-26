@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Dashboard_backend.Managers.Interfaces
 {
-    interface IShiftContext
+    public interface IShiftContext
     {
         Task<Shift> GetShiftAsync(int shiftId);
 

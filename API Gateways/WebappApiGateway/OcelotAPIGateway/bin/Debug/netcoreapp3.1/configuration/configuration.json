@@ -50,12 +50,29 @@
         "PUT",
         "DELETE"
       ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/shift/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44392
+        }
+      ],
+      "UpstreamPathTemplate": "/api/shift/{everything}",
+      "UpstreamHtppMethod": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "testKey",
+        "AllowedScopes": []
+      }
     }
   ],
-  "AuthenticationOptions": {
-    "AuthenticationProviderKey": "TestKey",
-    "AllowedScopes": []
-  },
   "GlobalConfiguration": {},
   "Logging": {
     "LogLevel": {

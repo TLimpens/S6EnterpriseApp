@@ -17,7 +17,7 @@ namespace Dashboard_backend.Managers.Context
         {
             Shift resultShift = new Shift();
             _client = new HttpClient();
-            HttpResponseMessage res = await _client.GetAsync("https://localhost:5001/api/product/getproducts");
+            HttpResponseMessage res = await _client.GetAsync("https://localhost:44391/api/shift/getshift/4");
             if (res.IsSuccessStatusCode) 
             {
                 var results = res.Content.ReadAsStringAsync().Result;

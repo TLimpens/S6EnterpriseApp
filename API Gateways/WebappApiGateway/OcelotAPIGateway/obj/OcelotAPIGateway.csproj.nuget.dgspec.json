@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp\\API Gateways\\WebappApiGateway\\OcelotAPIGateway\\OcelotAPIGateway.csproj": {}
+    "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp-Backend\\API Gateways\\WebappApiGateway\\OcelotAPIGateway\\OcelotAPIGateway.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp\\API Gateways\\WebappApiGateway\\OcelotAPIGateway\\OcelotAPIGateway.csproj": {
+    "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp-Backend\\API Gateways\\WebappApiGateway\\OcelotAPIGateway\\OcelotAPIGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp\\API Gateways\\WebappApiGateway\\OcelotAPIGateway\\OcelotAPIGateway.csproj",
+        "projectUniqueName": "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp-Backend\\API Gateways\\WebappApiGateway\\OcelotAPIGateway\\OcelotAPIGateway.csproj",
         "projectName": "OcelotAPIGateway",
-        "projectPath": "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp\\API Gateways\\WebappApiGateway\\OcelotAPIGateway\\OcelotAPIGateway.csproj",
+        "projectPath": "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp-Backend\\API Gateways\\WebappApiGateway\\OcelotAPIGateway\\OcelotAPIGateway.csproj",
         "packagesPath": "C:\\Users\\Tom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp\\API Gateways\\WebappApiGateway\\OcelotAPIGateway\\obj\\",
+        "outputPath": "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp-Backend\\API Gateways\\WebappApiGateway\\OcelotAPIGateway\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Dashboard_backend.Managers;
+using Dashboard_backend.Managers.Context;
+using Dashboard_backend.Managers.Interfaces;
 using Dashboard_backend.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,6 +14,13 @@ namespace Dashboard_backend.Controllers
     [ApiController]
     public class ShiftController : Controller
     {
+        private readonly IShiftRepository _shiftRepository;
+
+        public ShiftController(IShiftRepository shiftRepository)
+        {
+            _shiftRepository = shiftRepository;
+        }
+
         [HttpGet]
         [Route("getallshifts")]
         public string GetAllShifts()
@@ -20,9 +30,9 @@ namespace Dashboard_backend.Controllers
 
         [HttpGet]
         [Route("getshift/{id}")]
-        public Shift GetShift(int id)
+        public Task<Shift> GetShift(int id)
         {
-           return new Shift(id);
+           return _shiftRepository.GetShiftAsync(id);
         }
     }
 

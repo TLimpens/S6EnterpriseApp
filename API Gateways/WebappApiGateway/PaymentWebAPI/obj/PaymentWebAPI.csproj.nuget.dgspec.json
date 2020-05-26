@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp\\API Gateways\\WebappApiGateway\\PaymentWebAPI\\PaymentWebAPI.csproj": {}
+    "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp-Backend\\API Gateways\\WebappApiGateway\\PaymentWebAPI\\PaymentWebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp\\API Gateways\\WebappApiGateway\\PaymentWebAPI\\PaymentWebAPI.csproj": {
+    "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp-Backend\\API Gateways\\WebappApiGateway\\PaymentWebAPI\\PaymentWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp\\API Gateways\\WebappApiGateway\\PaymentWebAPI\\PaymentWebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp-Backend\\API Gateways\\WebappApiGateway\\PaymentWebAPI\\PaymentWebAPI.csproj",
         "projectName": "PaymentWebAPI",
-        "projectPath": "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp\\API Gateways\\WebappApiGateway\\PaymentWebAPI\\PaymentWebAPI.csproj",
+        "projectPath": "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp-Backend\\API Gateways\\WebappApiGateway\\PaymentWebAPI\\PaymentWebAPI.csproj",
         "packagesPath": "C:\\Users\\Tom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp\\API Gateways\\WebappApiGateway\\PaymentWebAPI\\obj\\",
+        "outputPath": "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp-Backend\\API Gateways\\WebappApiGateway\\PaymentWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

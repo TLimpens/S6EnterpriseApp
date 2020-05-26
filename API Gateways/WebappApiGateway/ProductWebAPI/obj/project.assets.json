@@ -6073,11 +6073,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp\\API Gateways\\WebappApiGateway\\ProductWebAPI\\ProductWebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp-Backend\\API Gateways\\WebappApiGateway\\ProductWebAPI\\ProductWebAPI.csproj",
       "projectName": "ProductWebAPI",
-      "projectPath": "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp\\API Gateways\\WebappApiGateway\\ProductWebAPI\\ProductWebAPI.csproj",
+      "projectPath": "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp-Backend\\API Gateways\\WebappApiGateway\\ProductWebAPI\\ProductWebAPI.csproj",
       "packagesPath": "C:\\Users\\Tom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp\\API Gateways\\WebappApiGateway\\ProductWebAPI\\obj\\",
+      "outputPath": "C:\\Users\\Tom\\Desktop\\Semester 6\\S6EnterpriseApp-Backend\\API Gateways\\WebappApiGateway\\ProductWebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
